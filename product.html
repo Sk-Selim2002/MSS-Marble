@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstarp CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- BOOTSTRAP ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Custom CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+    <title>Bootstrap demo</title>
+</head>
+
+<body>
+    <div class="navbar-top text-center" style="background-color: #14171f;"> <!-- top-navbar -->
+        <h2 class="p-2"><a class="navbar-brand text-white" href="index.html"><img src="media/logo.png" class="img-fluid"
+                    alt="brand logo" style="width: 105px;"></a></h2>
+        <!-- Navabar -->
+        <nav class="navbar navbar-dark navbar-expand-lg" data-bs-theme="white"
+            style="background-color: transparent !important;">
+            <div class="container-fluid">
+                <!-- <a class="navbar-brand" href="#">MMS-Marbel</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-center" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-center" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Catalog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark" href="#">Item-1</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">Item-2</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">Item-3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="about.html">About Us</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link text-center" href="about.html"><i class="bi bi-heart cartheart-icon"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center" href="about.html"><i class="bi bi-cart2 cartheart-icon"></i></a>
+                        </li> -->
+                        <li class="nav-item ms-3">
+                            <a href="" id="Mb-No"><i class="bi bi-telephone mx-2"></i><Span class="me-2">+91  4054571000</Span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar end -->
+    </div>
+    <!-- top-navbar end -->
+
+   <section class="container p-3">
+    <div class="row justify-content-center">
+        <div class="col-md-5 my-3 d-flex justify-content-center">
+            <img src="media/pexels-photo-10341193.png" class="img-fluid rounded mx-auto" alt="">
+        </div>
+
+        <div class="col-md-6 my-3">
+            <h3>Fairy Baby Antique Statue</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. reprehenderit dolor dolorem! A facere blanditiis esse.</p>
+
+            <span class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                (4.5)
+            </span>
+            <div class="prize-div bg-success opacity-75 my-1">
+                <p class="fw-bold">Special price</p>
+                <h4><strike class="mx-2">$50</strike>$32.60 <span class="ms-3">45% off</span></h4>
+            </div>
+
+            <div class="delivery-location">
+                <i class="bi bi-geo-alt mx-2"></i> <span class="text-primary">Select delivery location</span> 
+            </div>
+            <button class="btn btn-dark my-3 mx-2" type="button">Add to Cart <i class="bi bi-cart2 mx-2"></i></button>
+            <button class="btn btn-dark my-3 mx-2" type="button">Buy Now <i class="bi bi-lightning-fill mx-2"></i></button>
+        </div>
+    </div>
+   </section>
+
+   <section class="container-fliud py-2" id="smilar-product">
+       <div class="row justify-content-center p-3">
+        <h3 class="">Similar Products</h3>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    <!-- <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+                    <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    <!-- <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+                    <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    <!-- <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+                    <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    <!-- <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+                    <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+   <section class="container-fliud py-2" id="smilar-product2">
+       <div class="row justify-content-center p-3">
+        <h3 class="">You might be interested in</h3>
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    <!-- <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+                    <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    <!-- <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+                    <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    <!-- <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+                    <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="card">
+                <img src="media/pexels-photo-10341193.png" alt="">
+                <div class="card-body product-images">
+                    <h6>Musician Trumpet Showman Statue</h6>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="star">
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                        <i class="fas fa-star checked"></i>
+                    </div>
+                    <h5>$56.50 <strike>$60</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></h5>
+                    <!-- <button type="button" class="btn btn-sm btn-dark">BUY NOW</button>
+                    <button type="button" class="btn btn-sm btn-dark">ADD TO CART</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <hr class="footer-hr">
+        <div class="footer-top pt-5">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-md-4">
+                        <h4 class="logo-text">MMS Marble</h4>
+                        <p>
+                            Praesent vulputate neque nec sem fermentum porttitor. Mauris
+                            eget dolor convallis, trista, dignissim juis vel felis
+                            dictu.
+                        </p>
+                        <div class="social-icons">
+                            <a href="#"><i class="bi bi-facebook"></i></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                            <a href="#"><i class="bi bi-twitter"></i></a>
+                            <a href="#"><i class="bi bi-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="title-sm">Navigation</h5>
+                        <div class="footer-links">
+                            <a href="#">Services</a>
+                            <a href="#">Our Work</a>
+                            <a href="#">Team</a>
+                            <a href="#">Blog</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h5 class="title-sm">More</h5>
+                        <div class="footer-links">
+                            <a href="#">FAQ's</a>
+                            <a href="#">Privacy & Policy</a>
+                            <a href="#">Terms and conditions</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h5 class="title-sm">Contact</h5>
+                        <div class="footer-links">
+                            <p>1649 Norman Street, Los Angeles
+                             <br>
+                            8(800)316-06-42
+                            <br>
+                            hello@yourdomain.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-hr">
+            <div class="container py-2 justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-5 justify-content-center">
+                        <p class="text-center">&copy; Copyright <strong>MMS Marble</strong>.All Rights Reserved</p>
+                    </div>
+                    <!-- <div class="col-md-5 ms-auto">
+                        <p>Designed By <a href="https://www.linkedin.com/in/sk-selim-8655561a6/" target="_self">Sk Selim
+                        </p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section end-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
